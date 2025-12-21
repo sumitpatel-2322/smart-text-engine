@@ -16,10 +16,11 @@ def _ensure_punkt():
     if not _punkt_ready:
         try:
             nltk.data.find("tokenizers/punkt")
+            nltk.data.find("tokenizers/punkt_tab")
         except LookupError:
             nltk.download("punkt")
+            nltk.download("punkt_tab")
         _punkt_ready = True
-
 
 def _load_embedder():
     global _tokenizer, _embedder
