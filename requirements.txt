@@ -1,0 +1,16 @@
+tensorflow==2.15.0
+pandas
+numpy
+
+tf-keras
+tensorflow_datasets
+nltk
+fastapi
+pydantic
+uvicorn
+
+datasets
+transformers
+
+streamlit
+scikit-learn

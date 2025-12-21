@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie4U</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="/static/js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Movie4U-Review Analyzer</h2>
+        <textarea name="Review" id="text" rows="8" cols="60" placeholder="Enter the review for any movie..."></textarea>
+        <br>
+        <p id="error" class="error"></p>
+        <br>
+        <button id= "analyzeBtn" onclick="analyze()">Analyze</button>
+        <h3>Summary</h3>
+        <p id="summary"></pre>
+        <h3>Sentiment</h3>
+        <p id="sentiment" class="sentiment"></pre>
+    </div>
+</body>
+</html>
