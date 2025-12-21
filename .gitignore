@@ -1,0 +1,5 @@
+venv/
+.env
+logs/
+test.txt
+models/
