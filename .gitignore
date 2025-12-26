@@ -2,4 +2,10 @@ venv/
 .env
 logs/
 test.txt
+test.py
 models/
+inferences/_pycache_
+__pycache__/
+*.pyc
+*.pyo
+_pycache_/
